@@ -2,7 +2,7 @@
   "name": "my-rest-api",
   "version": "1.0.0",
   "description": "Simple REST API using JWT for authentication",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
