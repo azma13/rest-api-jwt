@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const user = require('./api/v1/routes/user');
-const index = require('./api/v1/routes/index');
+const user = require('./src/v1/routes/user');
+const index = require('./src/v1/routes/index');
 const cors = require('cors')
 
 app.use(bodyParser.json());
